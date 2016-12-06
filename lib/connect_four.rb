@@ -24,7 +24,11 @@ class ConnectFourMethods
   end
 
   def introduction
-  	"Hello."
+  	"Hello. Welcome to Connect Four. The goal of this game is to 
+  	 connect four of your pieces in a column, row, or diagonal. You 
+  	 may only place a piece in a column, in which the piece will fall
+  	 as far as possible. The first player to connect 4 pieces together
+  	 will win."
   end
 
   def place_piece(board,num,symbol)

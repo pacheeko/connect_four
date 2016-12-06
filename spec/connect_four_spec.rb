@@ -2,6 +2,7 @@ require 'connect_four'
 
 describe 'ConnectFour' do
   let(:game) {ConnectFourMethods.new}
+
   before(:each) do
   	@board = game.create_board
   	@player1 = double
